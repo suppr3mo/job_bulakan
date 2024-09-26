@@ -1,5 +1,10 @@
 * {
-   margin: 0;
+    margin: 0;
+  font-family: "Anton", sans-serif;
+     font-weight: 400;
+        font-style: normal;
+        color: #59310D;
+
 }
 
 #nav_bar {
@@ -9,19 +14,19 @@
     height: 50px;
     position: absolute;
     text-align: right;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 1px;
 }
 #nav_home {
     position: absolute;
-    right: 500px;
+    right: 450px;
     top: 15px;
 }
 
 #nav_find { 
     position: absolute; 
      top: 15px;
-     right: 330px;
+     right: 300px;
     
 }
 #nav_about {
@@ -35,4 +40,17 @@
     position: absolute;
     top: 15px;
     right: 50px;
+}
+#nav_web_logo { 
+    position: absolute;
+    height: 40px;
+    left: 20px;
+    top: 5px;
+}
+#nav_webname {
+    position: absolute;
+    left: 70px;
+    font-size: 25px;
+    top: 12px;
+    font-weight: bold;
 }
