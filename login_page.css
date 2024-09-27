@@ -1,7 +1,7 @@
 * {
     margin: 0;
   font-family: "Anton", sans-serif;
-     font-weight: 400;
+     font-weight: 500;
         font-style: normal;
         color: #59310D;
 
@@ -54,3 +54,47 @@
     top: 12px;
     font-weight: bold;
 }
+#fp_header_goyo {
+    position: absolute;
+    height:550px;
+    left: 800px;
+    top: 180px;
+
+}
+#fp_description {
+        font-family: "Lato", sans-serif;
+        position: absolute;
+        font-size: 12px;
+        right: 700px;
+        left: 50px;
+        top:200px;
+        color:black
+}
+#fp_title {
+    position: absolute;
+    font-family: "Anton", sans-serif;
+    font-size: 100px;
+    right: 700px;
+    left: 50px;
+    top:100px;
+    font-weight: 700;
+       font-style: bold;
+       color: #59310D;
+
+}
+#square {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    top: 290px;
+    left: 100px;
+    -webkit-box-shadow: 0px 0px 20px 2px #59310D;
+    -moz-box-shadow: 0px 0px 20px 2px #59310D;
+    -ms-box-shadow: 0px 0px 20px 2px #59310D;
+    -o-box-shadow: 0px 0px 20px 2px #59310D;
+    box-shadow: 0px 0px 20px 2px #59310D;
+
+  }
+
