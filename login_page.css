@@ -3,16 +3,23 @@
   font-family: "Anton", sans-serif;
      font-weight: 500;
         font-style: normal;
+<<<<<<< HEAD
+        color: #412207;
+=======
         color: #000000;
+>>>>>>> cf80e21081ee68a0c0b498bd0ec30549840df3f8
 
 }
 
+
 #nav_bar {
     border-bottom:  .1px solid  rgb(199, 195, 195);   
-    position: absolute;
+    
+    position: sticky;
     width: 100%;
+    top: 0;
     height: 50px;
-    position: absolute;
+   
     text-align: right;
     font-size: 15px;
     letter-spacing: 1px;
@@ -53,6 +60,126 @@
     font-size: 25px;
     top: 12px;
     font-weight: bold;
+<<<<<<< HEAD
+    color: black;
+}
+
+#header_tag-line {
+    font-size: 30px;
+    
+}
+#fp_sign_up {
+    position: absolute;
+    top: 110px;
+    right: 80px;
+    height: 500px;
+    width: 450px;
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.329);
+}
+
+#login_pass, #login_email {
+    position: absolute;
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    left: 50px;
+    border: 3px solid rgb(214,140,3);
+    color: rgb(214,140,3);
+
+
+
+
+}
+#login_statement  {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#login_statement1 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+} 
+#login_email {
+    top: 185px;
+}
+#login_pass {
+    top: 250px;
+}
+#login_btn {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    width: 350px;
+    height: 45px;
+    border-radius: 20px;
+    background: none;
+    border: 3px solid rgb(214,140,3);
+    background-color: rgb(214, 140,3);
+    color: white;
+}
+
+
+
+#fp_tagline1, #fp_tagline2 {
+    position: absolute;
+    color: rgb(214,140,3);
+    font-size: 50px;
+    left: 170px;
+}
+
+#fp_tagline1 {
+    top: 120px;
+
+}
+#fp_tagline2 {
+    top: 180px;
+}
+
+#fp_webname {
+    position: absolute;
+    top: 240px;
+    left: 170px;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#fp_joblist_btn {
+    position: absolute;
+    top: 360px;
+    left: 450px;
+    width: 180px;
+    height: 50px;
+    background: none;
+    border-radius: 30px;
+    border: 3px solid rgb(214,140,3);
+    font-size: 20px;
+    
+    letter-spacing: 1px;
+    color: rgb(214,140,3);
+
+}
+
+#fp_information_page {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    top: 700px;
+    background-color: rgb(214, 140, 3);
+}
+.fa-magnifying-glass {
+    position: absolute;
+    top: 350px;
+    font-size: 30px;
+    font-weight: bold; 
+}
+=======
 }
 #fp_header_goyo {
     position: absolute;
@@ -98,3 +225,4 @@
 
   }
 
+>>>>>>> cf80e21081ee68a0c0b498bd0ec30549840df3f8
