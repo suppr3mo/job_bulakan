@@ -1,316 +1,568 @@
-* {
-    margin: 0;
-  font-family: "Anton", sans-serif;
-     font-weight: 500;
-        font-style: normal;
-        color: #412207;
-        color: #000000;
+    * {
+        margin: 0;
+    font-family: "Anton", sans-serif;
+        font-weight: 500;
+            font-style: normal;
+            color: #412207;
+            color: #000000;
 
-}
+    }
 
 
-#nav_bar {
-    border-bottom:  .1px solid  rgb(199, 195, 195);   
+    #nav_bar {
+        border-bottom:  .1px solid  rgb(199, 195, 195);   
+        
+        position: fixed;
+        width: 100%;
+        top: 0;
+        height: 70px;
     
-    position: sticky;
-    width: 100%;
-    top: 0;
-    height: 70px;
-   
-    text-align: right;
-    font-size: 23px;
-    letter-spacing: 1px;
-}
-#nav_home {
-    position: absolute;
-    right: 600px;
-    top: 20px;
-}
+        text-align: right;
+        font-size: 23px;
+        letter-spacing: 1px;
+        background: white;
+        z-index: 111;
+    }
+    #nav_home {
+        position: absolute;
+        right: 600px;
+        top: 20px;
+    }
 
-#nav_find { 
-    position: absolute; 
-     top: 20px;
-     right: 400px;
-    
-}
-#nav_about {
-    position: absolute;
-    top: 20px;
-    right: 240px;
+    #nav_find { 
+        position: absolute; 
+        top: 20px;
+        right: 400px;
+        
+    }
+    #nav_about {
+        position: absolute;
+        top: 20px;
+        right: 240px;
 
-}
+    }
 
-#nav_signup {
-    position: absolute;
-    top: 5px;
-    right: 60px;
-    background:  linear-gradient(to right, rgb(214,140,3),rgb(214, 87, 3) );
-    color: white;
-    padding: 15px 20px 15px 20px;
-    border-radius: 20px;
-    
-}
-#nav_web_logo { 
-    position: absolute;
-    height: 40px;
-    left: 20px;
-    top: 5px;
-}
-#nav_webname {
-    position: absolute;
-    left: 80px;
-    font-size: 32px;
-    top: 15px;
-    font-weight: bold;
-    color:rgb(214,140,3);
-}
+    #nav_signup {
+        position: absolute;
+        top: 5px;
+        right: 60px;
+        background:  linear-gradient(to right, rgb(214,140,3),rgb(214, 87, 3) );
+        color: white;
+        padding: 15px 20px 15px 20px;
+        border-radius: 20px;
+        
+    }
+    #nav_web_logo { 
+        position: absolute;
+        height: 40px;
+        left: 20px;
+        top: 5px;
+    }
+    #nav_webname {
+        position: absolute;
+        left: 80px;
+        font-size: 32px;
+        top: 15px;
+        font-weight: bold;
+        color:rgb(214,140,3);
+    }
 
-#header_tag-line {
-    font-size: 30px;
-    
-}
-#fp_sign_up {
-    position: absolute;
-    top: 110px;
-    right: 80px;
-    height: 650px;
-    width: 600px;
-    border-radius: 40px;
-    border: 1px solid rgba(0, 0, 0, 0.281);
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.329);
-}
+    #header_tag-line {
+        font-size: 30px;
+        
+    }
+    #fp_sign_up {
+        position: absolute;
+        top: 110px;
+        right: 80px;
+        height: 650px;
+        width: 600px;
+        border-radius: 40px;
+        border: 1px solid rgba(0, 0, 0, 0.281);
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.329);
+    }
 
-#login_pass, #login_email {
-    position: absolute;
-    height: 50px;
-    width: 420px;
-    border-radius: 25px;
-    left: 100px;
-    border: 3px solid rgb(214,140,3);
-    color: rgb(214,140,3);
+    #login_pass, #login_email {
+        position: absolute;
+        height: 50px;
+        width: 420px;
+        border-radius: 25px;
+        left: 100px;
+        border: 3px solid rgb(214,140,3);
+        color: rgb(214,140,3);
 
 
 
 
-}
-#login_statement  {
-    position: absolute;
-    top:  70px;
-    left: 100px;
-    font-size: 32px;
-    font-weight: bold;
-}
-#login_statement1 {
-    position: absolute;
-    top: 105px;
-    left: 100px;
-    font-size: 32px;
-    font-weight: bold;
-} 
-#login_email {
-    top: 215px;
-}
-#login_pass {
-    top: 300px;
-}
-#login_btn {
-    position: absolute;
-    top: 410px;
-    left: 100px;
-    width: 420px;
-    height: 55px;
-    border-radius: 20px;
-    background: none;
-    border: 3px solid rgb(214,140,3);
-    background: linear-gradient(to right, rgb(214,140,3),rgb(214, 87, 3) );
-    color: white;
-    letter-spacing: 1px;
-    font-size: 20px;
-}
-.forget_pass {
-    font-size: 18px;
-    color:  rgb(214, 140,3);
-    position: absolute;
-    top: 470px;
-    left: 250px;
-    
-}
+    }
+    #login_statement  {
+        position: absolute;
+        top:  70px;
+        left: 100px;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    #login_statement1 {
+        position: absolute;
+        top: 105px;
+        left: 100px;
+        font-size: 32px;
+        font-weight: bold;
+    } 
+    #login_email {
+        top: 215px;
+    }
+    #login_pass {
+        top: 300px;
+    }
+    #login_btn {
+        position: absolute;
+        top: 410px;
+        left: 100px;
+        width: 420px;
+        height: 55px;
+        border-radius: 20px;
+        background: none;
+        border: 3px solid rgb(214,140,3);
+        background: linear-gradient(to right, rgb(214,140,3),rgb(214, 87, 3) );
+        color: white;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    .forget_pass {
+        font-size: 18px;
+        color:  rgb(214, 140,3);
+        position: absolute;
+        top: 470px;
+        left: 250px;
+        
+    }
 
 
-#fp_tagline1, #fp_tagline2 {
-    position: absolute;
-    color: rgb(214,140,3);
-    font-size: 50px;
-    left: 670px;
-}
+    #fp_tagline1, #fp_tagline2 {
+        position: absolute;
+        color: rgb(214,140,3);
+        font-size: 50px;
+        left: 670px;
+    }
 
-#fp_tagline1 {
+    #fp_tagline1 {
+        top: 200px;
+
+    }
+    #fp_tagline2 {
+        top: 250px;
+    }
+
+    #fp_webname {
+        position: absolute;
+        top: 300px;
+        left: 670px;
+        font-size: 100px;
+        font-weight: bold;
+        z-index: 11;
+    }
+
+
+    #fp_joblist_btn {
+        position: absolute;
+        top: 420px;
+        left: 950px;
+        width: 180px;
+        height: 50px;
+        background: none;
+        border-radius: 30px;
+        border: 3px solid rgb(214,140,3);
+        font-size: 20px;
+        
+        letter-spacing: 1px;
+        color: rgb(214,140,3);
+
+    }
+   #fp_joblist_btn:hover,  #mission:hover   {
+       background: linear-gradient(to right, rgb(214,140,3),rgb(214, 87, 3) );
+       color: white;
+       
+   }
+
+
+    #fp_landingpage{
+        position: absolute;
+        height: 110px;
+        width: 100%;
+        top: 700px;
+        
+
+    }
+
+
+    .explore {
+        position: absolute;
+        top: 100px;
+        left: 150px;
+        font-size: 43px;
+        font-weight: bold;
+
+    }
+
+    .category {
+        position: absolute;
+        top:  100px;
+        left: 380px;
+        font-size: 43px;
+        font-weight: bold;
+        color: rgb(214,140,3);
+
+    }
+
+    #lp_cat1 , #lp_cat2  , #lp_cat3 ,#lp_cat4, #lp_cat5, #lp_cat6, #lp_cat7, #lp_cat8 {
+    position: absolute;
+    height: 170px;
+    width: 380px;
     top: 200px;
-
-}
-#fp_tagline2 {
-    top: 250px;
-}
-
-#fp_webname {
-    position: absolute;
-    top: 300px;
-    left: 670px;
-    font-size: 100px;
-    font-weight: bold;
-    z-index: 11;
-}
-
-
-#fp_joblist_btn {
-    position: absolute;
-    top: 420px;
-    left: 950px;
-    width: 180px;
-    height: 50px;
-    background: none;
-    border-radius: 30px;
-    border: 3px solid rgb(214,140,3);
-    font-size: 20px;
-    
-    letter-spacing: 1px;
-    color: rgb(214,140,3);
-
-}
-
-
-
-#fp_landingpage{
-    position: absolute;
-    height: 500px;
-    width: 100%;
-    top: 700px;
-    
-
-}
-#lp_info_sec {
-    position: absolute;
-    height: 380px;
-    width: 100%;
-    background:  radial-gradient(rgb(214, 140, 3), rgb(214, 116, 3));
-    font-size: 30px;
-    top: 830px;
-    
-
-}
-
-
-.explore {
-     position: absolute;
-     top: 100px;
-     left: 150px;
-     font-size: 43px;
-     font-weight: bold;
-
-}
-
-.category {
-    position: absolute;
-    top:  100px;
-    left: 380px;
-    font-size: 43px;
-    font-weight: bold;
-    color: rgb(214,140,3);
-
-}
-
-#lp_cat1 , #lp_cat2  , #lp_cat3 ,#lp_cat4, #lp_cat5, #lp_cat6, #lp_cat7, #lp_cat8 {
-position: absolute;
-height: 180px;
-width: 380px;
-top: 200px;
-left: 150px;
-border: .5px solid rgba(0, 0, 0, 0.295);
-border-radius: 15px;
-font-size: 25px;
-color: rgb(214,140,3);
-font-weight: bold;
-
-
-}   
-
-.cat {
-    position: absolute;
-    top: 50px;
     left: 150px;
-    font-size: 24px;
-     color: rgb(214,140,3);
-     font-weight: bold;
-
-
-}
- 
-#lp_cat2, #lp_cat6 {
-    left: 580px;
-}
-
-#lp_cat3, #lp_cat7 {
-    left: 1000px;
-}
-
-
-#lp_cat4, #lp_cat8  {
-    left: 1440px;
-}
-
-#lp_cat5, #lp_cat6, #lp_cat7, #lp_cat8 {
-  top: 403px;
-
-}
-
-
-#bg_img {
-    position: absolute;
-    top: 90px;
-    height: 770px;
-    z-index: -11;
-    
-
-    
-}
-
-#fp_landingpage {
-    position: absolute;
-    top: 1200px;
-    
-}
-
-#cat_icon {
-    position: absolute;
-    font-size: 60px;
-    color: rgb(214,140,3);
-    top: 40px;
-    left: 50px;
-
-}
-
-
-.article1 {
-
-    position: absolute;
-    top:  510px;
-    left: 670px;
-    font-size: 21px;
-    
-
-
-}
-
-#mission {
-    position: absolute;
-    top: 630px;
-    width: 200px;
-    height: 60px;
-    background: none;
     border: 3px solid rgb(214,140,3);
-    font-size: 18px;
+    border-radius: 15px;
+    font-size: 25px;
     color: rgb(214,140,3);
-    left: 950px;
-    border-radius: 30px;
+    font-weight: bold;
 
-}
+
+    }   
+
+    .cat {
+        position: absolute;
+        top: 50px;
+        left: 150px;
+        font-size: 24px;
+        color: rgb(214,140,3);
+        font-weight: bold;
+
+
+    }
+    
+    #lp_cat2, #lp_cat6 {
+        left: 580px;
+    }
+
+    #lp_cat3, #lp_cat7 {
+        left: 1000px;
+    }
+
+
+    #lp_cat4, #lp_cat8  {
+        left: 1440px;
+    }
+
+    #lp_cat5, #lp_cat6, #lp_cat7, #lp_cat8 {
+    top: 403px;
+
+    }
+
+
+    #bg_img {
+        position: absolute;
+        top: 90px;
+        height: 770px;
+        z-index: -11;
+        
+
+        
+    }
+
+    #fp_landingpage {
+        position: absolute;
+        top: 1300px;
+        height: 1480px;
+        
+    }
+
+    #cat_icon {
+        position: absolute;
+        font-size: 40px;
+        color: rgb(214,140,3);
+        top: 40px;
+        left: 70px;
+
+    }
+
+
+    .article1 {
+
+        position: absolute;
+        top:  510px;
+        left: 670px;
+        font-size: 21px;
+        
+
+
+    }
+
+    #mission {
+        position: absolute;
+        top: 630px;
+        width: 200px;
+        height: 60px;
+        background: none;
+        border: 3px solid rgb(214,140,3);
+        font-size: 18px;
+        color: rgb(214,140,3);
+        left: 950px;
+        border-radius: 30px;
+
+    }
+
+    #featured_jobs{
+        position: absolute;
+        height: 500px;
+        width: 100%;
+        background:  radial-gradient(rgb(214, 140, 3), rgb(214, 116, 3));
+        font-size: 30px;
+        top: 830px;
+        
+
+    }
+
+
+    #feature_header {
+        position: absolute;
+        top: 50px;
+        z-index: 111;
+        font-size: 35px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        left: 200px;
+        color: white;
+    }
+
+    .job_block {
+        position: absolute;
+        top:170px;
+        left: 200px;
+        height: 130px;
+        width: 480px;
+        background: white;
+        border-radius: 18px;
+        
+        
+        
+    }
+
+    .job_block:hover  {
+        background: none;
+        border: 3px solid white;
+        color: white;
+    }
+
+
+    #Job_block2 {
+        position: absolute;
+        left: 700px;
+    }
+
+    #Job_block3 {
+        left: 1200px;
+    }
+    #Job_block4 {
+        top: 315px;
+    }
+
+    #Job_block5 {
+        top: 315px;
+        left: 700px;
+    }
+
+    #Job_block6 {
+        top: 315px;
+        left: 1200px;
+    }
+
+
+    #logo_ {
+        position: absolute;
+        height: 80px;
+        border-radius: 40px;
+        left: 30px;
+        top: 20px;
+
+    }
+    #Employer {  
+        position: absolute; 
+        top: 20px;
+        left: 150px;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: .5px;
+    }
+    #branches {
+        position: absolute;
+        font-size: 17px;
+        color: rgb(214, 140, 3);
+        font-weight: bold;
+        top: 50px;
+        left: 150px;    
+    }
+
+    .fa-location-dot {
+        color: rgb(214, 140, 3);
+        font-size: 18px;
+        position: absolute;
+        left: 150px;
+        top: 80px;
+    }
+
+    #job_location{
+         position: absolute;
+         font-size: 17px;
+         left: 170px;
+         top: 80px;
+         color: rgb(214, 140, 3);
+         font-weight: bold;
+        
+    }
+
+    #view_cat {
+        position: absolute;
+        top: 100px;
+        background:linear-gradient(to right, rgb(214,140,3),rgb(214, 87, 3) );
+        width: 280px;
+        height: 50px;
+        border: none;
+        border-radius: 20px;
+        left: 60px;
+        font-size: 17px;
+        color: white;
+       
+        letter-spacing: 1px;
+
+    }
+
+    #view_cat:hover {
+        background: none;
+        border: 3px solid  rgb(214,140,3);
+        color:rgb(214, 116, 3);
+    }
+
+    .how_works {
+        position: absolute;
+        top: 750px;
+        left: 750px;
+        font-size: 55px;
+    }
+
+    .work {
+        position: absolute;
+        color: rgb(214,140,3);
+        top: 0px;
+        left: 170px;
+        font-weight: bold;
+    }
+
+    .explorethe {
+        position: absolute;
+        top: 830px;
+        font-size: 20px;
+        left: 640px;
+        color:rgb(214, 140, 3);
+
+    }
+    #step1, #step2, #step3, #num1, #num2, #num3 {
+        position: absolute;
+        color:rgb(214, 116, 3);
+    }
+
+    #step1, #step2, #step3 
+    {
+        font-size: 40px;
+        top: 1100px;
+       
+    }
+    #step1  {
+        left: 300px;
+    }
+
+    #step2 {
+        left: 900px;
+    }
+
+    #step3 {
+        left: 1500px;
+    }
+
+    #num1, #num2, #num3 {
+        top: 1030px;
+        font-size: 120px;
+    }
+    #num1 {
+        left: 365px;
+    }
+    #num2 {
+        left: 985px;
+    }
+    #num3 {
+        left: 1585px;
+    }
+
+
+    #step_header1, #step_header2,    #step_header3 {
+        position: absolute;
+        top: 1200px;
+        font-size: 33px;
+        font-weight: bold;
+        
+    } 
+
+    #step_header1 {
+        left: 300px;
+    }
+
+    #step_header2  {
+        left: 900px;
+
+    }
+
+    #step_header3  {
+        left: 1500px
+    }
+
+    #line1, #line2 , #line3  {
+        position: absolute; 
+        top: 1245px;
+        height: 5px;
+        width: 200px;
+        background:rgb(214, 116, 3);
+        
+    }
+
+    #line1 { 
+        left: 300px;
+    }
+
+    #line2 {
+         left: 900px;
+    }
+    #line3 {
+        left: 1500px;
+    }
+
+    .howitworks_statement1, .howitworks_statement3, .howitworks_statement2 {
+        position: absolute;
+        font-size: 20px;
+        color: :rgb(214, 116, 3);
+        top: 1300px;
+        color: rgb(214, 116, 3);    
+    }
+
+    .howitworks_statement1 {
+        left:300px;
+    }
+    .howitworks_statement2 {
+        left: 900px;
+
+    
+    }
+
+    .howitworks_statement3 {
+        left: 1500px;
+       
+    }
