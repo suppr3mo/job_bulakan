@@ -1,0 +1,126 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title> JOB/BUL: Landing page </title>
+      <link rel="stylesheet" href="job_bul_landingpage.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/1776b28af8.js" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    </head>
+    <body>
+      <!-- This section for navigation bar-->
+       <div id="nav_bar">
+         <ul>
+           <li><a href="#" id="navBarHome">Home</a></li>
+           <li><a href="job_bul_job-list.html" id="navBarFind">Find-a-Job</a></li>
+           <li><a href="#" id="navBarAbout">About-Us</a></li>
+           <li><a href="#" id="navBarSignup">Sign-up</a></li>
+         </ul>
+       </div>
+       
+      
+         <!-- This section used for header -->
+        <main>
+          <p id="text_statement1"> Bulakan Job Finders</p>
+          <h1 id="header_title"> JOB/BUL</h1>
+          <button id="findJobButton"> Find a Job </button>
+          <img src="Figure/frontpages/Job_Bul BG (1).png" id="backgroundImage">
+          <!-- C A T E G O R Y -->
+          <div id="categorySection">
+             <h1 id="categoryHeader">Let's Help you to choose the <br> category you want</h1>
+             <!-- C A T E G O R Y  B L O C K S-->
+             <div class="categoryBlocks" id="categoryBlk1"> 
+              <i class="fa-solid fa-tag"></i>
+              <p class="categoryType"> Sale's <br> Associate </p>
+             </div>
+             <div class="categoryBlocks" id="categoryBlk2"> 
+              <i class="fa-solid fa-burger"></i>
+              <p class="categoryType"> Service <br> Crew </p>
+             </div>
+             <div class="categoryBlocks" id="categoryBlk3"> 
+              <i class="fa-solid fa-helmet-safety"></i>
+              <p class="categoryType"> Warehouse <br> man </p>
+             </div>
+             <div class="categoryBlocks" id="categoryBlk4"> 
+              <i class="fa-solid fa-gas-pump"></i>
+              <p class="categoryType"> Gasoline <br> Staff</p>
+             </div>
+          </div>
+          <!-- LOG IN PAGE ( when you tap the log-in btn in navigation bar )-->
+          <div id="signupForm"> 
+            <i class="fa-solid fa-xmark" id="signUp_exit"></i>
+             <p id="signupStatement">Create an <br> Account </p>
+             <p id="signupStatement2">Already have an Account? <a href="#">Signup</a></p>
+             <label id="labelname"> Name</label>
+             <input id="signUp_inputName" type="text" class="signUp_form">
+             <label id="labelLname"> Last Name</label>
+             <input id="signUp_inputLastname" type="text"    class="signUp_form">
+             <label id="labelEmail"> Email</label>
+             <input id="signUp_inputEmail" type="Email"  class="signUp_form">
+             <label id="labelPass"> Password </label>
+             <input id="signUp_inputPass" type="Password" class="signUp_form">
+             <label id="labelCpass"> Confirm Password</label>
+             <input id="signUp_inputCpass" type="Password" class="signUp_form">
+             <input id="signUp_term" type="checkbox"> <p id="agreeterm"> Agree to the term and Condition </p>
+             <input id="signUp_button" type="button" value="Create account">
+
+             
+          </div>
+       </main>
+          
+           
+           
+      
+    
+
+
+
+
+
+
+
+      
+        <div id="footer" > 
+           
+             <p id="footer_webname"> JOB/BUL | Bulakan Job Finders </p>
+             <p id="footer_tagline"> Job Finders for Bulakenyos</p>
+
+             <p class="footer_nav" id="footer_home" > HOME </p>
+             <p class="footer_nav" id="footer_find" >  FIND-A-JOB </p>
+             <p class="footer_nav" id="footer_reg"  > REGISTER </p>
+             <p class="footer_nav"id="footer_about"  > ABOUT US  </p>
+
+             <i class="fa-brands fa-square-facebook"></i>
+             <i class="fa-brands fa-square-x-twitter"></i>
+             <i class="fa-brands fa-square-instagram"></i>
+
+             <p class="copyright"> Copyright©2024 All right reserved | Design By : </p>
+             <p class="credit" > Christian Cruz &  I-JACK CORP.</p>
+
+
+        </div>
+
+
+        <script>
+          document.getElementById("navBarSignup").addEventListener("click",function() {
+           document.getElementById("header_title").style.left = "150px";
+           document.getElementById("text_statement1").style.left = "150px";
+           document.getElementById("findJobButton").style.left = "400px";
+           document.getElementById("signupForm").style.top = "130px";
+          })
+
+          document.getElementById("signUp_exit").addEventListener("click", function() {
+            document.getElementById("signupForm").style.top = "-1000px";
+            document.getElementById("header_title").style.left = "750px";
+           document.getElementById("text_statement1").style.left = "750px";
+           document.getElementById("findJobButton").style.left = "980px";
+          })
+         </script>
+    </body>
+</html>
